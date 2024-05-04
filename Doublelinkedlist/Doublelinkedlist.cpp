@@ -97,5 +97,12 @@ void deleteNode()
     current = START;
     previous = NULL;
 
+    while (current != NULL && current->noMhs != rollNo)
+    {
+        previous = current;
+        current = current->next;
+    }
+
+
 
 
