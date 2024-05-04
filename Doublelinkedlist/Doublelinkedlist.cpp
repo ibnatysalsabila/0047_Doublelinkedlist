@@ -130,5 +130,11 @@ void deleteNode()
     cout << "\x1b[32mRecord with roll number " << rollNo << " deleted\1b[0m" << endl;
 }
 
+bool listEmpty()
+{
+    return (START == NULL);
+}
+
+
 
 
